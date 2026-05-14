@@ -47,7 +47,7 @@ Este repositorio no incluye datos ni carpeta `data/` para evitar versionar archi
 - Si Prophet tarda en compilar dependencias en la primera instalación, es normal. Alternativamente, instala `cmdstanpy` de forma independiente si necesitas acelerar compilación.
 
 ## Documentación de Datos
-- Descripción detallada del dataset y su uso: ver `docs/Datos.md`.
+- Descripción detallada del dataset y su uso: ver [docs/Datos.md](docs/Datos.md).
 - Página oficial de la competición M5 (Accuracy) en Kaggle: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 
 ## Licencia
