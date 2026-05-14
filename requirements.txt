@@ -1,0 +1,12 @@
+# Núcleo científico
+numpy
+pandas
+matplotlib
+scikit-learn
+statsmodels
+
+# Modelos
+xgboost
+prophet
+
+jupyterlab
