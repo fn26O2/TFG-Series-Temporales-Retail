@@ -23,10 +23,8 @@ ENV/
 .idea/
 *.iml
 
-# Data and outputs (keep readmes)
-data/**
-!data/.gitkeep
-!data/README.md
+# Data and outputs
+data/
 models/**
 !models/.gitkeep
 !models/README.md

@@ -37,15 +37,10 @@ Este repositorio contiene el cuaderno y la estructura mínima para reproducir el
    ```
 
 ## Datos (M5)
-- La ruta por defecto en el cuaderno apunta a Kaggle: `BASE = '/kaggle/input/competitions/m5-forecasting-accuracy/'`.
-- Para ejecutarlo localmente, descarga el dataset desde Kaggle y colócalo en `data/m5/` manteniendo la misma estructura de archivos que Kaggle (por ejemplo `sales_train_evaluation.csv`, etc.).
-- Edita la celda de constantes al inicio del cuaderno y cambia:
-  
-  ```python
-  BASE = 'data/m5/'
-  ```
+- Por defecto, el cuaderno usa directamente el dataset de Kaggle con `BASE = '/kaggle/input/competitions/m5-forecasting-accuracy/'`.
+- Si ejecutas el cuaderno fuera de Kaggle y quieres trabajar localmente, cambia la variable `BASE` al inicio del cuaderno para apuntar a tu ruta local del dataset o utiliza la Kaggle API para descargarlo previamente.
 
-En la carpeta `data/` no se versionan archivos binarios por tamaño/licencias. Se incluye un `README.md` con notas y un `.gitkeep` para conservar la carpeta vacía en git.
+Este repositorio no incluye datos ni carpeta `data/` para evitar versionar archivos pesados o con restricciones de licencia.
 
 ## Reproducibilidad
 - Tras ajustar `BASE`, ejecuta las celdas en orden. Algunas secciones pueden tardar (por ejemplo, Prophet/ARIMA) dependiendo del hardware.
