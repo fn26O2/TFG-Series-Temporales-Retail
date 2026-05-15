@@ -1,4 +1,4 @@
-# TFG M5 Forecasting - Anexo de Código
+# TFG Análisis Predictivo de Series Temporales en el Entorno Retail - Anexo de Código
 
 Este repositorio contiene el cuaderno y la estructura mínima para reproducir el trabajo del TFG sobre modelos de predicción de series temporales en el sector retail. Está pensado como anexo: incluye instrucciones de entorno, dependencias y organización básica de archivos.
 
