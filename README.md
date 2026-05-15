@@ -1,6 +1,10 @@
 # TFG M5 Forecasting - Anexo de Código
 
-Este repositorio contiene el cuaderno y la estructura mínima para reproducir el trabajo del TFG sobre la competición M5 (Forecasting). Está pensado como anexo: incluye instrucciones de entorno, dependencias y organización básica de archivos.
+Este repositorio contiene el cuaderno y la estructura mínima para reproducir el trabajo del TFG sobre modelos de predicción de series temporales en el sector retail. Está pensado como anexo: incluye instrucciones de entorno, dependencias y organización básica de archivos.
+
+## Alumno
+2026 Álvaro Tébar Folch, Universidad Europea de Valencia
+
 
 ## Contenido
 - `TFG_M5_Forecasting_Tebar.ipynb`: cuaderno principal con el análisis y los experimentos.
@@ -50,12 +54,6 @@ Este repositorio no incluye datos ni carpeta `data/` para evitar versionar archi
 - Descripción detallada del dataset y su uso: ver [docs/Datos.md](docs/Datos.md).
 - Página oficial de la competición M5 (Accuracy) en Kaggle: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 
-## Licencia
-Este proyecto se distribuye bajo la licencia MIT.
-
-Copyright (c) 2026 Álvaro Tébar Folch, Universidad Europea de Valencia
-
-Consulta el archivo `LICENSE` para el texto completo.
 
 ## Contacto
 Para dudas o mejoras, abre un issue o contacta al autor del TFG.
